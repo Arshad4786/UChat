@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "ChirpyBirdy",
+    "slug": "ChirpyBirdy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "myChirpyBirdy",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ChirpyBirdy"
+    },
+    "android": {
+      "package": "com.ChirpyBirdy"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "cc3513a9-aeaa-41be-a2e5-163c47f76108"
+      }
+    }
+  }
+}
